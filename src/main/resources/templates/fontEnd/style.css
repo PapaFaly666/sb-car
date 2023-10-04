@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+ body{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	min-height: 100vh;
+ }
+
+h1{
+	margin-bottom: 25px;
+	background-color: #00CED1;
+	padding: 15px;
+	border-radius: 5px;
+	color: white;
+}
+
+ .conteneur{
+ 	display: flex;
+ 	align-items: center;
+ 	flex-direction: column;
+ 	border-radius: 5px;
+ }
+
+.conteneur .infos_owner .info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteneur .infos_owner .info label{
+    font-size: 20px;
+    color: #A9A9A9;
+}
+
+.conteneur .infos_owner .info input{
+    padding: 0.5em;
+    border-radius: 5px;
+    border:none;
+    background-color: #F0F8FF;
+}
+
+
+
+.conteneur .infos_owner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.conteneur .btn_owner{
+	margin-top: 15px;
+	background-color: #228B22;
+	padding: 8px;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ body{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	min-height: 100vh;
+ }
+
+ .conteneur_affichage .proprio .voiture{
+ 	line-height: 30px;
+ 	margin-top: 30px;
+ }
+
+ .conteneur_affichage .proprio .voiture p{
+ 	font-weight: bold;
+ 	font-size: 20px;
+ }
+
+ .conteneur_affichage .proprio{
+ 	line-height: 20px;
+ 	margin-bottom: 15px;
+ }
+
+ .conteneur_affichage .proprio p{
+ 	font-size: 20px;
+ 	line-height: 25px;
+ }
+
+ .conteneur_affichage{
+ 	background-color:#f2f2f2;
+ 	padding: 10px 30px;
+ }
+
+ .edit{
+ 	background-color: #33cc33;
+ 	padding: 10px;
+ 	border-radius: 5px;
+ 	border: none;
+ 	color: white;
+ 	cursor: pointer;
+ }
+
+ .delete{
+ 	background-color: #ec1313;
+ 	padding: 10px;
+ 	border-radius: 5px;
+ 	border: none;
+ 	color: white;
+ 	cursor: pointer;
+ }
+
+ .titreProp{
+ 	text-decoration: underline;
+ 	margin-bottom: 10px;
+ }
+
+ .titreVoi{
+ 	text-decoration: underline;
+ }
+
+ .delete_all{
+ 	position: absolute;
+ 	margin-left: 155px;
+ 	background-color: red;
+ 	padding:0px 5px;
+ 	margin-top: -2px;
+ 	color: white;
+ 	cursor: pointer;
+ }

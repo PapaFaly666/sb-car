@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crud Spring-boot</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="conteneur">
+        <h1>Information propriétaire</h1>
+        <form id="ownerForm" onSubmit="return validate_owner()">
+                <div class="infos_owner">
+                <div class="prenom info">
+                    <label>Prenom</label>
+                    <input type="text" name="firstname" placeholder="Entrer le prénom" id="firstname" required>
+                </div>
+
+                <div class="nom info">
+                    <label>Nom</label>
+                    <input type="text" name="lastname" placeholder="Entrer le nom" id="lastname" required>
+                </div>
+            </div>
+            <button class="btn_owner" type="submit" onclick="affichage_owner()">Suivant</button>
+            <button class="btn_owner" type="submit">Afficher</button>
+        </form>
+        
+            
+    </div>
+    <script type="" src="scriptOwner.js"></script>
+</body>
+</html>
